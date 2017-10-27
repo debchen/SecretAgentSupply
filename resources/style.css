@@ -133,3 +133,61 @@ footer {
   padding: 5rem 0;
   margin-top: 4rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  nav a {
+    diaplay: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center
+  }
+
+  .item {
+    width: 47%;
+  }
+
+  .item .glasses {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+  .headline {
+    width: 100%;
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+  h1 {
+    font-size: 0.77rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .items {
+    flex-wrap: wrap;
+  }
+
+  .item .watch .glasses{
+    display: none;}
+
+  .item {
+    width: 90%;
+    margin: auto;
+  }
+  .information {
+    flex-wrap: wrap;
+  }
+  .detail {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+}
